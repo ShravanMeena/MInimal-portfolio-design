@@ -1,0 +1,41 @@
+.headerTitle {
+  text-align: right;
+  padding-right: 100px !important;
+  padding: 20px;
+}
+
+.headerTitle button {
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  width: 160px;
+  font-weight: 600;
+  font-size: 19px;
+  border: 1px solid #000;
+}
+
+.about {
+  text-align: center;
+}
+
+.about h1 {
+  font-size: 40px;
+  padding: 15px;
+}
+.about p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 660px) {
+  .about p {
+    font-size: 17px;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,86 @@
+.allProjects {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.allProjectsCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.allProjectsHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card {
+  text-align: center;
+  padding: 6px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+  max-width: 300px;
+  min-width: 300px;
+  height: auto;
+  margin: 40px;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #fff, 2px 5px 16px 0px #cccccc,
+    inset 50px 30px 38px -14px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 3px 8px 5px #fff, 2px 5px 16px 0px #cccccc,
+    inset 50px 30px 38px -14px rgba(0, 0, 0, 0);
+}
+
+.card img {
+  border-radius: 5px;
+  margin-top: -20px;
+  cursor: pointer;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #f5a623, 2px 5px 16px 0px #cccccc,
+    inset 50px 30px 38px -14px rgba(0, 0, 0, 0);
+  box-shadow: inset -1px 3px 8px 5px #f5a623, 2px 5px 16px 0px #cccccc,
+    inset 50px 30px 38px -14px rgba(0, 0, 0, 0);
+}
+
+.hoverBtn {
+  cursor: pointer;
+  margin-top: -90px;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.hoverBtn:hover {
+  opacity: 1;
+}
+
+.hoverBtn a button {
+  background-color: #f5a623;
+  outline: none;
+  border: 1px solid #f5a623;
+  padding: 15px;
+  width: 120px;
+}
+
+.card button {
+  cursor: pointer;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 5px;
+}
+.card h1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 660px) {
+  .allProjects {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
